@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Hackathons by hpebigdatasolutions</title>
+    <title>HPE Big Data Solutions Hackathons by hpebigdatasolutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Hackathons</h1>
+      <h1 class="project-name">HPE Big Data Solutions Hackathons</h1>
       <h2 class="project-tagline"></h2>
       <a href="https://github.com/hpebigdatasolutions/hackathons" class="btn">View on GitHub</a>
       <a href="https://github.com/hpebigdatasolutions/hackathons/zipball/master" class="btn">Download .zip</a>
@@ -19,13 +19,88 @@
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="hackathon-info" class="anchor" href="#hackathon-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hackathon Info</h3>
+      <h1>
+<a id="southborough-march-2016-demos" class="anchor" href="#southborough-march-2016-demos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Southborough March 2016 Demos</h1>
 
-<p><img src="https://rndwiki.corp.hpecorp.net/confluence/download/thumbnails/1030480609/Hackathon.png?version=2&amp;modificationDate=1455051608000&amp;api=v2" alt="Image of Hackathon logo"> </p>
+<p>Hackathon project demos illustrate the creative thinking and team work applied to building unique applications from the IM&amp;G Common Application Framework (CAF) components.  </p>
+
+<p>Besides CAF components, our Hackathon teams took advantage of IDOL, HPE Elements, web data, and a host of other resources available to build the following applications within a 12 hour window.  </p>
+
+<h2>
+<a id="winners" class="anchor" href="#winners" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Winners</h2>
+
+<h3>
+<a id="best-app---solves-non-trivial-and-relevant-business-need" class="anchor" href="#best-app---solves-non-trivial-and-relevant-business-need" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Best App - Solves non-trivial and relevant business need</h3>
+
+<p><strong>Summary</strong>: Our app, named “CAF file system”, is a remote virtual file system based on CAF Storage Service.</p>
+
+<p><strong>CAF Components Used</strong>: CAF Storage Service</p>
+
+<p><strong>Other Components Used</strong>: FUSE (File System in user space)</p>
+
+<p><strong>Data Source</strong>: none</p>
+
+<p><strong>Description</strong>: This app is designed to implement a "File System" style APIs on top of existing CAF Storage APIs. For Admin user, it 
+can provide a better analysis and visualization in CAF Storage Service. Also, for Customer user, it gives a simple and convenience way to utilize CAF Storage Service.
+As the expectation for "CAF file system", we plan to provide:</p>
+
+<ul>
+<li>A series of Dashboards with various KPIs visualization to CAF Storage Service</li>
+<li>Integrate "CAF file system" into Linux with FUSE.</li>
+<li>Command Line Interface, which is similar with "Hadoop File System CLI"</li>
+<li>"File System" Java APIs based on CAF Storage APIs</li>
+</ul>
+
+<p><strong>Video</strong>: TBD </p>
+
+<h3>
+<a id="best-gui---completeness-clarity-simplicity-aesthetic-value" class="anchor" href="#best-gui---completeness-clarity-simplicity-aesthetic-value" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Best GUI - Completeness, clarity, simplicity, aesthetic value</h3>
+
+<p><strong>Video</strong>: TBD </p>
+
+<h3>
+<a id="most-innovative-use-of-caf-apis" class="anchor" href="#most-innovative-use-of-caf-apis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Most innovative use of CAF APIs</h3>
+
+<p><strong>Description</strong>: Objective of the project:</p>
+
+<ul>
+<li>Gather digital media sources about an event or an organization or a brand.</li>
+<li>Store the media on cloud using CAF storage.</li>
+<li>Process the media and develop a usable abstract to analyze the big data, use entity extraction, stemming, etc.</li>
+<li>Search big datasets on social media, blogs, news feeds, search engines, etc. using the abstract.</li>
+<li>Develop useful insights about that specific event or brand. Come up with statistical/data models.</li>
+<li>Render the models in graphs visually for ease of use</li>
+<li>Make the complex data simpler!</li>
+</ul>
+
+<p><strong>CAF Components Used</strong>: Storage, IDM, Policy Workflow, Speech-to-text, Elements </p>
+
+<p><strong>Other Components Used</strong>: HAVEn on Demand, Google Trends API, New York Times feed, Twitter APIs </p>
+
+<p><strong>Data Sources Used</strong>: Twitter feed, Event press releases, Presidential debate transcripts </p>
+
+<p><strong>Video</strong>: TBD </p>
+
+<h3>
+<a id="most-interesting--fun-app" class="anchor" href="#most-interesting--fun-app" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Most interesting / fun app</h3>
+
+<p><strong>Video</strong>: TBD </p>
+
+<h3>
+<a id="honorable-mention" class="anchor" href="#honorable-mention" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Honorable Mention</h3>
+
+<p><strong>Description</strong>: Our project is called Cloud Storage Multiplier(CSM). This is an adapter application that works for cloud storage services such as Dropbox, Google Drive and OneDrive. It utilizes CAF Storage Service’s block-level deduplication feature to help the users significantly increase their data transmission speed and largely save the online space. Small business companies will benefit from this application most because we can help to reduce a large amount of duplicate data across the whole company. At the same time, CSM exponentially increases the company’s file sharing capability because the shared file stub is only ~KB instead of ~MB or even ~GB. In one word, the combined space of duplicate data and shared files, and the time of transmitting duplicate data are what CSM can save for the users. </p>
+
+<p><strong>CAF Components Used</strong>: CAF Storage and CAF IDM services </p>
+
+<p><strong>Other Components Used</strong>: N/A </p>
+
+<p><strong>Data Sources Used</strong>: Dropbox </p>
+
+<p><strong>Video</strong>: TBD </p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/hpebigdatasolutions/hackathons">Hackathons</a> is maintained by <a href="https://github.com/hpebigdatasolutions">hpebigdatasolutions</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/hpebigdatasolutions/hackathons">HPE Big Data Solutions Hackathons</a> is maintained by <a href="https://github.com/hpebigdatasolutions">hpebigdatasolutions</a>.</span>
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
